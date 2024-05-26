@@ -27,7 +27,7 @@ body {
 
 .encabezado {
     width: 100%;
-    height: 50vw;
+    height: 40vw;
     background: url(../img/bar.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -113,8 +113,8 @@ h2{
 
 .fotos img,
 .foto {
-    width: 36vw;
-    height: 32vw;
+    width: 32vw;
+    height: 25vw;
     border-radius: 26% 0 26% 0;
     margin: 3vw;
     right: 0;
@@ -124,7 +124,8 @@ h2{
 
 .fotos img:hover,
 .foto:hover {
-    border: 2px solid #e7e4e4
+    border: 2px solid #e7e4e4;
+    transform: scale(1.1);
 }
 
 
@@ -159,12 +160,12 @@ footer .nombres a img {
     margin: 3px;
 }
 
-footer .nombres a #in {
+footer .nombres a .in {
     width: 2.6vw;
     height: 2.6vw;
 } 
 
-footer .nombres a #in:hover,
+footer .nombres a .in:hover,
 footer .nombres a img:hover {
   width: 3.6vw;
   height: 3.6vw;

@@ -36,6 +36,11 @@ body {
     margin: 2.5vw;
 }
 
+.encabezado ul img:hover {
+    transform: rotateY(360deg);
+    transition: 4s;
+}
+
 .encabezado nav ul {
     display: flex;
     justify-content: space-around;
